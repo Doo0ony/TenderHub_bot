@@ -6,7 +6,7 @@ namespace TenderHub_bot
 	internal static class DBConnect
 	{
 		private static readonly string connectionString =
-			"Server=danone703.mssql.somee.com;Database=danone703;User Id=Egnrhn_SQLLogin_1;Password=nf8c61k2uw;";
+			"YourMSSQLSERVER";
  		
 		private static SqlConnection SqlConnection_connection = new SqlConnection(connectionString);
 		private static string strSQL;
