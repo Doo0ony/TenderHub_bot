@@ -10,7 +10,7 @@ namespace TelegramBotExperiments
 	{
 		static List<Card> cards = new List<Card>();
 		static bool isReview = false;
-		static ITelegramBotClient bot = new TelegramBotClient("6318044476:AAHK7XujdXxeKawqfEFREeA2ioDRTrHcwy4");
+		static ITelegramBotClient bot = new TelegramBotClient("BOTAPI");
 
 		public static async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
 		{
